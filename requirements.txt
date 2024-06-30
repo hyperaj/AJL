@@ -30,7 +30,7 @@ youtube-search
 youtube-search-python
 pornhub-api==0.3.0
 openai==1.23.6
-telegraph
+telegraph==2.2.0
 async_pymongo
 gpytranslate
 search_engine_parser
