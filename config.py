@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "7f3199fc8aaa21f76a8f2ce35c21292b")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6701671043:AAG8InzrwbYioNZWGqMTZ0f1P74dBoiQQIg")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "6701671043:AAG8InzrwbYioNZWGqMTZ0f1P74dBoiQQIg")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musicheysiri:musicsiri123@cluster0.gozblfn.mongodb.net/?appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
