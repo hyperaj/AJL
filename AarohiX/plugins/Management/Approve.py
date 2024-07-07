@@ -96,14 +96,14 @@ font_path = "AarohiX/assets/adisa.ttf"
 chat_id_env = environ.get("CHAT_ID")
 CHAT_ID = [int(Adisa) for Adisa in chat_id_env.split(",")] if chat_id_env else []
 
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "**╭━─━─━─━─━─≪ ♡ ≫─━─━─━─━─━╮**\n**🙏ʀᴀᴍ ʀᴀᴍ {mention} 🚩**\n\n**✨ᴡᴇʟᴄᴏᴍᴇ ɪɴ {title}✨**\n\n**🍁ᴍᴀᴋᴇ ɴᴇᴡ ғʀɪᴇɴᴅs ᴀɴᴅ sᴛᴀʏ ᴀᴄᴛɪᴠᴇ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ🍁**\n**╰━─━─━─━─━─≪ ♡ ≫─━─━─━─━─━╯**")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "**╭━─━─━─━─━─≪ ♡ ≫─━─━─━─━─━╮**\n** {mention} 🚩**\n\n**✨ᴡᴇʟᴄᴏᴍᴇ ɪɴ {title}✨**\n\n**🍁ᴍᴀᴋᴇ ɴᴇᴡ ғʀɪᴇɴᴅs ᴀɴᴅ sᴛᴀʏ ᴀᴄᴛɪᴠᴇ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ🍁**\n**╰━─━─━─━─━─≪ ♡ ≫─━─━─━─━─━╯**")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # List of random photo links
 random_photo_links = [
-    "https://telegra.ph/file/ca950c0b8316b968957fa.jpg",
-    "https://telegra.ph/file/ca950c0b8316b968957fa.jpg",
-    "https://telegra.ph/file/ca950c0b8316b968957fa.jpg",
+    "https://te.legra.ph/file/8ea1462d2eeb633eaa7aa.jpg",
+    "https://te.legra.ph/file/8ea1462d2eeb633eaa7aa.jpg",
+    "https://te.legra.ph/file/8ea1462d2eeb633eaa7aa.jpg",
     # Add more links as needed
 ]
 
