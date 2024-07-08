@@ -71,7 +71,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="ᴅᴇᴠ",
-                url=f"https://t.me/God_of_your_pain",
+                url=f"https://t.me/King_0f_izzy",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -93,7 +93,7 @@ def stream_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="ᴅᴇᴠ",
-                url=f"https://t.me/God_of_your_pain",
+                url=f"https://t.me/King_0f_izzy",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
