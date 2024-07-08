@@ -30,7 +30,7 @@ def truncate(text):
     text2 = text2.strip()     
     return [text1,text2]
 
-def crop_center_circle(img, output_size, border, crop_scale=1.5):
+def crop_center_circle(img, output_size, border, crop_scale=0.5):
     half_the_width = img.size[0] / 2
     half_the_height = img.size[1] / 2
     larger_size = int(output_size * crop_scale)
@@ -103,9 +103,9 @@ async def get_thumb(videoid):
     youtube = Image.open(f"cache/thumb{videoid}.png")
     image1 = changeImageSize(1280, 720, youtube)
     image2 = image1.convert("RGBA")
-    background = image2.filter(filter=ImageFilter.BoxBlur(20))
+    background = image2.filter(filter=ImageFilter.BoxBlur(10))
     enhancer = ImageEnhance.Brightness(background)
-    background = enhancer.enhance(0.6)
+    background = enhancer.enhance(0.3)
     draw = ImageDraw.Draw(background)
     arial = ImageFont.truetype("AarohiX/assets/assets/font2.ttf", 30)
     font = ImageFont.truetype("AarohiX/assets/assets/font.ttf", 30)
