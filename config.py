@@ -43,7 +43,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tamilanexpress")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tamil_anexpress_chat")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tamil_an_express_chat")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -61,8 +61,8 @@ CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5"))
 DEEP_API = getenv("DEEP_API")
 
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 904857600))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 9073741824))
 
 
 
@@ -98,15 +98,15 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/6d585197af34afd4bb740.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/206c9e9ac189f72fe5530.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/f6b2e18ecae7ffb6a9c88.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/206c9e9ac189f72fe5530.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/6d585197af34afd4bb740.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/7adee139f0639c400e1b8.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/9e14789c344a3c983aca5.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/9e14789c344a3c983aca5.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/206c9e9ac189f72fe5530.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/206c9e9ac189f72fe5530.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/206c9e9ac189f72fe5530.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/6d585197af34afd4bb740.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/6d585197af34afd4bb740.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/9e14789c344a3c983aca5.jpg"
